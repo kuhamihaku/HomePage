@@ -2,29 +2,43 @@
 
 /* ページ全体の設定 */
 body{
-    margin: 0;
     font-family: sans-serif;
     background-color: #000000;
 }
-/* 「ヘッダー」ブロック */
-.headTitl a{
-    padding-left:50%;
-    color:#fff;
-    font-size: 36px;
-    text-align: center;
+a{
     text-decoration: none;
 }
+/* 「ヘッダー」ブロック */
+.headTitl div{
+    margin: 49px auto;
+    width: 400px;
+    padding:10px 30px ;
+}
+.headTitl a{
+    color:#fff;
+    font-size: 36px;
+    padding-left: 3%;
+}
 
+/*「小説」ブロック*/
+.storyTitle div{
+    width: 400px;
+    border:1px solid #ddd;
+}
 .storyTitle h1{
     padding-left: 5%;
     color:#fff;
     font-size: 24px;
 }
-.storyTitle h2{
-    padding-left: 5%;
+.storyTitle a:link{
     color:#fff;
     font-size: 20px;
 }
-a{
-    text-decoration: none;
+.storyTitle a:visited{
+    color:#fff;
+    font-size: 20px;
+}
+.storyTitle a:hover{
+    color:#00ff00;
+    font-size: 20px;
 }
