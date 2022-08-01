@@ -1,20 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="Css/base.css">
         <title>みはくワールド</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="Css/main.css">
     </head>
     <body>
-        <h1>みはくのあそび場</h1>
-        <h2>ツイート</h2>
-        <h2>おしらせ</h2>
-        <h3>ホーム</h3>
-        <h3>時系列</h3>
-        <h3>作品一覧</h3>
-        <h3>キャラクター</h3>
-        <h3>攻略</h3>
-        <h3>倉庫</h3>
+        <header>
+            <a href="index.html">みはくのあそび場</a>
+            <nav>
+                 <!-- メインメニュー -->
+                <ul class="mainMenu">
+                    <li>
+                        <a href="index.html">
+                            ホーム
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            時系列
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            作品一覧
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            キャラクター
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            攻略
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            倉庫
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="newsList">
+            <div id="newsListom">
+                <article>
+                    <div id ="newsListinTitle">
+                        <h2>おしらせ</h2>
+                        <a>
+                            ～・れんらくじこう・～
+                        </a>
+                    </div>
+                    <div id="newsListinBox">
+                        <a>
+                            <section>
+                                <h3>
+                                    お知らせ情報その１
+                                </h3>
+                                <time datatime="2022-08-01"pubdate>
+                                    "update 2022"
+                                    <span>/07/14</span>
+                                </time>
+                            </section>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+<!--
+
+        <div id="twitterList">
+            <div id="twitterListin">
+                <h2>
+                    ツイート
+                </h2>
+                <div id="tweetList">
+                    <div class="timeLine">
+                        <div class="timeLine-Title">
+                            <a href="https://twitter.com/mihaku_1027">
+                                みはくのついーと！
+                            </a>
+                        </div>
+                        <div class="timeLine-BoxUpdata">
+                            <button class="timeLine-Button" data-scribe="element:show_new_tweets">
+                                新しいツイートを読み込む
+                            </button>
+                        </div>
+                        <div class="timeline-ViewPort" style="height: 413px;">
+                            <ol class="timeLine-TweetList">
+                                <li class="timeLine-TweetLine-tweet">
+                                    <div class="timeLine-Tweet" 
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
         <small>(c)みはくワールド All Rights Reserved.</small>
     </body>
 </html>
